@@ -1,0 +1,52 @@
+/*****************************************************************************
+ * README - Please read this file first to get more information about 
+ *          the pSos+ to Linux library--p2linux.a.
+ ****************************************************************************/
+
+1  Although some key APIs of pSOS+ have been implemented, support of these features requires
+   an 'adpter layer' of code which adds functionality at the inevitable expense of raw 
+   performance.
+
+2  This library only support one node architecture, it is mean that you can only using it in 
+   one processor board, and set the arg of "node" to zero in APIs;
+
+3  When you create the task with t_create API, you'd better limit your priority of task in 
+   1--98, any other value will also be translated to this in this area by the function.
+
+4  The 'event' mechanism has been implemented, but it designed only for signal tansport inter 
+   user-space, so the safe when using it between kernel-space and user-space should not be 
+   guaranteed.
+
+5  Under VxWorks enviroment, pt_create function require the user to specify the 'paddr' arg, 
+   that is because in such a real-time OS, it's left user to manage the memory by himself, but
+   here you have to be gaurantee that the "paddr" must has not been used, maybe 'malloc' before 
+   the call is a good choice.
+
+6  We didn't use the System V message queue and semaphore support for it's complexity, and 
+   implement it by ourselves, so it can be used to vary linux version.
+
+7  Function q_broadcast() gives a copy of the input message to each such task and makes it 
+   ready to run. After a q_broadcast() call, no tasks will be waiting to receive a message 
+   from the specified queue, and this is the same as the pSOS+ q_broadcast() system call.
+
+8  In some functions like my_tcb() which are not exposed outside as APIs, since the access 
+   is read-only, no locking of the task list is done there.
+
+9  If the user want to malloc a memory, you'd better using the thread-safe malloc 'ts_malloc()'
+   Provided by this library, so does the 'ts_free()' function.
+
+10 In fuction t_start(), only the mode T_TSLICE,T_NOTSLICE is supported, and the flags T_PREEMPT
+   and T_NOPREEMPT is useless here since the priority of the task has been set by the arg 'prio'
+   of t_create() function. Also In function t_mode, only the mode T_TSLICE | T_NOTSLICE |
+   T_PREEMPT | T_NOPREEMPT has been supported.
+
+11 In t_suspend() function, if the task has been locked(the highest priority), i do nothing.
+
+12 In Linux enviroment, the default ticks per second is 100.
+
+
+
+
+
+  
+
