@@ -60,12 +60,12 @@ depend:
 
 demo.o: /usr/include/stdio.h /usr/include/features.h /usr/include/sys/cdefs.h
 demo.o: /usr/include/gnu/stubs.h
-demo.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.2/include/stddef.h
+demo.o: /usr/include/linux/stddef.h
 demo.o: /usr/include/bits/types.h /usr/include/bits/wordsize.h
 demo.o: /usr/include/bits/typesizes.h /usr/include/libio.h
 demo.o: /usr/include/_G_config.h /usr/include/wchar.h
 demo.o: /usr/include/bits/wchar.h /usr/include/gconv.h
-demo.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.2/include/stdarg.h
+demo.o: /usr/include/c++/4.6/tr1/stdarg.h
 demo.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
 demo.o: /usr/include/stdlib.h /usr/include/unistd.h
 demo.o: /usr/include/bits/posix_opt.h /usr/include/bits/confname.h
@@ -80,12 +80,12 @@ event.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
 event.o: /usr/include/asm/errno.h /usr/include/unistd.h
 event.o: /usr/include/bits/posix_opt.h /usr/include/bits/types.h
 event.o: /usr/include/bits/wordsize.h
-event.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.2/include/stddef.h
+event.o: /usr/include/linux/stddef.h
 event.o: /usr/include/bits/typesizes.h /usr/include/bits/confname.h
 event.o: /usr/include/stdlib.h /usr/include/stdio.h /usr/include/libio.h
 event.o: /usr/include/_G_config.h /usr/include/wchar.h
 event.o: /usr/include/bits/wchar.h /usr/include/gconv.h
-event.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.2/include/stdarg.h
+event.o: /usr/include/c++/4.6/tr1/stdarg.h
 event.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
 event.o: /usr/include/string.h /usr/include/signal.h
 event.o: /usr/include/bits/sigset.h /usr/include/sys/time.h
@@ -100,12 +100,12 @@ memblk.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
 memblk.o: /usr/include/asm/errno.h /usr/include/unistd.h
 memblk.o: /usr/include/bits/posix_opt.h /usr/include/bits/types.h
 memblk.o: /usr/include/bits/wordsize.h
-memblk.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.2/include/stddef.h
+memblk.o: /usr/include/linux/stddef.h
 memblk.o: /usr/include/bits/typesizes.h /usr/include/bits/confname.h
 memblk.o: /usr/include/stdlib.h /usr/include/stdio.h /usr/include/libio.h
 memblk.o: /usr/include/_G_config.h /usr/include/wchar.h
 memblk.o: /usr/include/bits/wchar.h /usr/include/gconv.h
-memblk.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.2/include/stdarg.h
+memblk.o: /usr/include/c++/4.6/tr1/stdarg.h
 memblk.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
 memblk.o: /usr/include/string.h /usr/include/signal.h
 memblk.o: /usr/include/bits/sigset.h /usr/include/sys/time.h
@@ -120,12 +120,12 @@ queue.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
 queue.o: /usr/include/asm/errno.h /usr/include/unistd.h
 queue.o: /usr/include/bits/posix_opt.h /usr/include/bits/types.h
 queue.o: /usr/include/bits/wordsize.h
-queue.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.2/include/stddef.h
+queue.o: /usr/include/linux/stddef.h
 queue.o: /usr/include/bits/typesizes.h /usr/include/bits/confname.h
 queue.o: /usr/include/stdlib.h /usr/include/stdio.h /usr/include/libio.h
 queue.o: /usr/include/_G_config.h /usr/include/wchar.h
 queue.o: /usr/include/bits/wchar.h /usr/include/gconv.h
-queue.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.2/include/stdarg.h
+queue.o: /usr/include/c++/4.6/tr1/stdarg.h
 queue.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
 queue.o: /usr/include/string.h /usr/include/signal.h
 queue.o: /usr/include/bits/sigset.h /usr/include/sys/time.h
@@ -140,12 +140,12 @@ sema4.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
 sema4.o: /usr/include/asm/errno.h /usr/include/unistd.h
 sema4.o: /usr/include/bits/posix_opt.h /usr/include/bits/types.h
 sema4.o: /usr/include/bits/wordsize.h
-sema4.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.2/include/stddef.h
+sema4.o: /usr/include/linux/stddef.h
 sema4.o: /usr/include/bits/typesizes.h /usr/include/bits/confname.h
 sema4.o: /usr/include/stdlib.h /usr/include/stdio.h /usr/include/libio.h
 sema4.o: /usr/include/_G_config.h /usr/include/wchar.h
 sema4.o: /usr/include/bits/wchar.h /usr/include/gconv.h
-sema4.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.2/include/stdarg.h
+sema4.o: /usr/include/c++/4.6/tr1/stdarg.h
 sema4.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
 sema4.o: /usr/include/string.h /usr/include/signal.h
 sema4.o: /usr/include/bits/sigset.h /usr/include/semaphore.h
@@ -160,14 +160,14 @@ task.o: /usr/include/gnu/stubs.h /usr/include/bits/errno.h
 task.o: /usr/include/linux/errno.h /usr/include/asm/errno.h
 task.o: /usr/include/unistd.h /usr/include/bits/posix_opt.h
 task.o: /usr/include/bits/types.h /usr/include/bits/wordsize.h
-task.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.2/include/stddef.h
+task.o: /usr/include/linux/stddef.h
 task.o: /usr/include/bits/typesizes.h /usr/include/bits/confname.h
 task.o: /usr/include/sched.h /usr/include/time.h /usr/include/bits/sched.h
 task.o: /usr/include/sys/mman.h /usr/include/bits/mman.h
 task.o: /usr/include/stdlib.h /usr/include/stdio.h /usr/include/libio.h
 task.o: /usr/include/_G_config.h /usr/include/wchar.h
 task.o: /usr/include/bits/wchar.h /usr/include/gconv.h
-task.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.2/include/stdarg.h
+task.o: /usr/include/c++/4.6/tr1/stdarg.h
 task.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
 task.o: /usr/include/signal.h /usr/include/bits/sigset.h
 task.o: /usr/include/sys/time.h /usr/include/bits/time.h
@@ -175,14 +175,15 @@ task.o: /usr/include/sys/select.h /usr/include/bits/select.h
 task.o: /usr/include/string.h p2pthread.h /usr/include/pthread.h
 task.o: /usr/include/bits/pthreadtypes.h /usr/include/bits/initspin.h
 task.o: /usr/include/bits/sigthread.h
+task.o: /usr/include/i386-linux-gnu/bits/sched.h
 test.o: /usr/include/stdio.h /usr/include/features.h /usr/include/sys/cdefs.h
 test.o: /usr/include/gnu/stubs.h
-test.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.2/include/stddef.h
+test.o: /usr/include/linux/stddef.h
 test.o: /usr/include/bits/types.h /usr/include/bits/wordsize.h
 test.o: /usr/include/bits/typesizes.h /usr/include/libio.h
 test.o: /usr/include/_G_config.h /usr/include/wchar.h
 test.o: /usr/include/bits/wchar.h /usr/include/gconv.h
-test.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.2/include/stdarg.h
+test.o: /usr/include/c++/4.6/tr1/stdarg.h
 test.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
 test.o: p2linux.h
 timer.o: /usr/include/errno.h /usr/include/features.h
@@ -190,14 +191,14 @@ timer.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
 timer.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
 timer.o: /usr/include/asm/errno.h /usr/include/sched.h
 timer.o: /usr/include/bits/types.h /usr/include/bits/wordsize.h
-timer.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.2/include/stddef.h
+timer.o: /usr/include/linux/stddef.h
 timer.o: /usr/include/bits/typesizes.h /usr/include/time.h
 timer.o: /usr/include/bits/sched.h /usr/include/unistd.h
 timer.o: /usr/include/bits/posix_opt.h /usr/include/bits/confname.h
 timer.o: /usr/include/stdlib.h /usr/include/stdio.h /usr/include/libio.h
 timer.o: /usr/include/_G_config.h /usr/include/wchar.h
 timer.o: /usr/include/bits/wchar.h /usr/include/gconv.h
-timer.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.2/include/stdarg.h
+timer.o: /usr/include/c++/4.6/tr1/stdarg.h
 timer.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
 timer.o: /usr/include/signal.h /usr/include/bits/sigset.h
 timer.o: /usr/include/sys/time.h /usr/include/bits/time.h
@@ -206,12 +207,12 @@ timer.o: /usr/include/pthread.h /usr/include/bits/pthreadtypes.h
 timer.o: /usr/include/bits/initspin.h /usr/include/bits/sigthread.h
 validate.o: /usr/include/stdio.h /usr/include/features.h
 validate.o: /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h
-validate.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.2/include/stddef.h
+validate.o: /usr/include/linux/stddef.h
 validate.o: /usr/include/bits/types.h /usr/include/bits/wordsize.h
 validate.o: /usr/include/bits/typesizes.h /usr/include/libio.h
 validate.o: /usr/include/_G_config.h /usr/include/wchar.h
 validate.o: /usr/include/bits/wchar.h /usr/include/gconv.h
-validate.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.2/include/stdarg.h
+validate.o: /usr/include/c++/4.6/tr1/stdarg.h
 validate.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
 validate.o: /usr/include/stdlib.h /usr/include/string.h /usr/include/unistd.h
 validate.o: /usr/include/bits/posix_opt.h /usr/include/bits/confname.h
@@ -226,12 +227,12 @@ vqueue.o: /usr/include/bits/errno.h /usr/include/linux/errno.h
 vqueue.o: /usr/include/asm/errno.h /usr/include/unistd.h
 vqueue.o: /usr/include/bits/posix_opt.h /usr/include/bits/types.h
 vqueue.o: /usr/include/bits/wordsize.h
-vqueue.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.2/include/stddef.h
+vqueue.o: /usr/include/linux/stddef.h
 vqueue.o: /usr/include/bits/typesizes.h /usr/include/bits/confname.h
 vqueue.o: /usr/include/stdlib.h /usr/include/stdio.h /usr/include/libio.h
 vqueue.o: /usr/include/_G_config.h /usr/include/wchar.h
 vqueue.o: /usr/include/bits/wchar.h /usr/include/gconv.h
-vqueue.o: /usr/lib/gcc-lib/i386-redhat-linux/3.2.2/include/stdarg.h
+vqueue.o: /usr/include/c++/4.6/tr1/stdarg.h
 vqueue.o: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
 vqueue.o: /usr/include/string.h /usr/include/signal.h
 vqueue.o: /usr/include/bits/sigset.h /usr/include/sys/time.h
