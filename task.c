@@ -228,6 +228,7 @@ void
     pthread_t my_pthrid;
     p2pthread_cb_t *tcb;
     int max_priority, sched_policy, got_lock;
+    struct sched_param param;
 
     /*
     **  p2pt_sched_lock ensures that only one p2pthread pthread at a time gets
@@ -316,12 +317,13 @@ void
     {
         pthread_attr_getschedpolicy( &(tcb->attr), &sched_policy );
         max_priority = sched_get_priority_max( sched_policy );
-        ((tcb->attr).__schedparam).sched_priority = max_priority;
+//        ((tcb->attr).__schedparam).sched_priority = max_priority;
+	param.__sched_priority = max_priority;
 		/*
 		** Note: here we set the priority for the given pthread.
 		*/
         pthread_setschedparam( tcb->pthrid, sched_policy,
-                          (struct sched_param *)&((tcb->attr).__schedparam) );
+                          &param );
     }
     pthread_mutex_unlock( &task_list_lock );
     pthread_cleanup_pop( 0 );
@@ -341,6 +343,7 @@ void
 {
     p2pthread_cb_t *tcb;
     int sched_policy;
+    struct sched_param param;
 
     /*
     **  scheduler_locked ensures that only one p2pthread pthread at a time gets
@@ -369,10 +372,11 @@ void
             if ( tcb != (p2pthread_cb_t *)NULL )
             {
                 pthread_attr_getschedpolicy( &(tcb->attr), &sched_policy );
-                ((tcb->attr).__schedparam).sched_priority = 
-                                           tcb->prv_priority.sched_priority;
+		param.__sched_priority = tcb->prv_priority.sched_priority;
+//              ((tcb->attr).__schedparam).sched_priority = 
+//                                         tcb->prv_priority.sched_priority;
                 pthread_setschedparam( tcb->pthrid, sched_policy,
-                          (struct sched_param *)&((tcb->attr).__schedparam) );
+                          &param );
             }
             pthread_mutex_unlock( &task_list_lock );
             pthread_cleanup_pop( 0 );
@@ -1495,6 +1499,7 @@ ULONG
     p2pthread_cb_t *tcb;
     int sched_policy;
     ULONG error;
+    struct sched_param param;
 
     error = ERR_NO_ERROR;
 
@@ -1548,8 +1553,9 @@ ULONG
             else
                 sched_policy = SCHED_FIFO;
             pthread_attr_setschedpolicy( &(tcb->attr), sched_policy );
+            pthread_attr_getschedparam( &(tcb->attr), &param );
             pthread_setschedparam( tcb->pthrid, sched_policy,
-                          (struct sched_param *)&((tcb->attr).__schedparam) );
+                          &param );
         }
 
         /*
@@ -1679,19 +1685,21 @@ int main( int argc, char **argv )
     **  This makes the initialization pthread the highest-priority thread
     **  in the p2pthread environment, and prevents premature preemption.
     */
-/*
-    pthread_attr_getschedparam( &init_attr, &init_priority );
-    init_priority.sched_priority = max_priority;
-    pthread_attr_setschedparam( &init_attr, &init_priority );
 
-    printf( "\r\nStarting System Initialization Pthread" );
-    pthread_create( &tid_init, &init_attr,
-                    init_system, (void *)NULL );
-*/
+//    pthread_attr_getschedparam( &init_attr, &init_priority );
+//    init_priority.sched_priority = max_priority;
+//    pthread_attr_setschedparam( &init_attr, &init_priority );
+
+//    printf( "\r\nStarting System Initialization Pthread\n" );
+//    pthread_create( &tid_init, &init_attr,
+//                    init_system, (void *)NULL );
+
     /*
     **  Wait for the initialization thread to terminate and return.
     */    
-//    pthread_join( tid_init, (void **)NULL );
+/*
+    pthread_join( tid_init, (void **)NULL );
 
-//    exit( 0 );
-//}
+    exit( 0 );
+}
+*/

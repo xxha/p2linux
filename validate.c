@@ -98,8 +98,10 @@ static ULONG test_cycle;
 void display_tcb( ULONG tid )
 {
     
-    int policy;
+    int policy, state;
     p2pthread_cb_t *cur_tcb;
+    struct sched_param param;
+
 
     cur_tcb = tcb_for( tid );
 
@@ -109,7 +111,9 @@ void display_tcb( ULONG tid )
     printf( "\r\nTask ID: %ld  Thread ID: %ld", cur_tcb->taskid,
             cur_tcb->pthrid  );
 
-    policy = (cur_tcb->attr).__schedpolicy;
+//  policy = (cur_tcb->attr).__schedpolicy;
+    pthread_attr_getschedpolicy( &(cur_tcb->attr), &policy );
+
     switch (policy )
     {
         case SCHED_FIFO:
@@ -124,9 +128,14 @@ void display_tcb( ULONG tid )
         default :
             printf( "\r\n    schedpolicy: %d ", policy );
     }
-    printf( " priority %d ", ((cur_tcb->attr).__schedparam).sched_priority );
+
+    pthread_attr_getschedparam( &(cur_tcb->attr), &param );
+    printf( " priority %d ", param.__sched_priority );
+
     printf( " prv_priority %d ", (cur_tcb->prv_priority).sched_priority );
-    printf( " detachstate %d ", (cur_tcb->attr).__detachstate );
+
+    pthread_attr_getdetachstate( &(cur_tcb->attr), &state );
+    printf( " detachstate %d ", state );
 }
 
 /*****************************************************************************
