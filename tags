@@ -1,0 +1,919 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BCAST	arm/queue.c	19;"	d	file:
+BCAST	arm/vqueue.c	19;"	d	file:
+BCAST	queue.c	19;"	d	file:
+BCAST	vqueue.c	19;"	d	file:
+CFLAGS	Makefile	/^CFLAGS	= -g -Wall -O2 -I. -D_GNU_SOURCE -D_REENTRANT$/;"	m
+DIAG_PRINTFS	arm/event.c	16;"	d	file:
+DIAG_PRINTFS	arm/memblk.c	16;"	d	file:
+DIAG_PRINTFS	arm/queue.c	16;"	d	file:
+DIAG_PRINTFS	arm/sema4.c	18;"	d	file:
+DIAG_PRINTFS	arm/task.c	18;"	d	file:
+DIAG_PRINTFS	arm/timer.c	16;"	d	file:
+DIAG_PRINTFS	arm/vqueue.c	16;"	d	file:
+DIAG_PRINTFS	event.c	16;"	d	file:
+DIAG_PRINTFS	memblk.c	16;"	d	file:
+DIAG_PRINTFS	queue.c	16;"	d	file:
+DIAG_PRINTFS	sema4.c	18;"	d	file:
+DIAG_PRINTFS	task.c	18;"	d	file:
+DIAG_PRINTFS	timer.c	16;"	d	file:
+DIAG_PRINTFS	vqueue.c	16;"	d	file:
+ERR_ACTIVE	arm/task.c	30;"	d	file:
+ERR_ACTIVE	task.c	30;"	d	file:
+ERR_BUFADDR	arm/memblk.c	29;"	d	file:
+ERR_BUFADDR	memblk.c	29;"	d	file:
+ERR_BUFFREE	arm/memblk.c	30;"	d	file:
+ERR_BUFFREE	memblk.c	30;"	d	file:
+ERR_BUFINUSE	arm/memblk.c	27;"	d	file:
+ERR_BUFINUSE	memblk.c	27;"	d	file:
+ERR_BUFSIZ	arm/vqueue.c	33;"	d	file:
+ERR_BUFSIZ	vqueue.c	33;"	d	file:
+ERR_BUFSIZE	arm/memblk.c	26;"	d	file:
+ERR_BUFSIZE	memblk.c	26;"	d	file:
+ERR_MATQDEL	arm/queue.c	38;"	d	file:
+ERR_MATQDEL	arm/vqueue.c	40;"	d	file:
+ERR_MATQDEL	queue.c	38;"	d	file:
+ERR_MATQDEL	vqueue.c	40;"	d	file:
+ERR_MSGSIZ	arm/vqueue.c	32;"	d	file:
+ERR_MSGSIZ	vqueue.c	32;"	d	file:
+ERR_NOBUF	arm/memblk.c	28;"	d	file:
+ERR_NOBUF	memblk.c	28;"	d	file:
+ERR_NODENO	arm/event.c	22;"	d	file:
+ERR_NODENO	arm/memblk.c	21;"	d	file:
+ERR_NODENO	arm/queue.c	27;"	d	file:
+ERR_NODENO	arm/sema4.c	24;"	d	file:
+ERR_NODENO	arm/task.c	24;"	d	file:
+ERR_NODENO	arm/vqueue.c	27;"	d	file:
+ERR_NODENO	event.c	22;"	d	file:
+ERR_NODENO	memblk.c	21;"	d	file:
+ERR_NODENO	queue.c	27;"	d	file:
+ERR_NODENO	sema4.c	24;"	d	file:
+ERR_NODENO	task.c	24;"	d	file:
+ERR_NODENO	vqueue.c	27;"	d	file:
+ERR_NOEVS	arm/event.c	27;"	d	file:
+ERR_NOEVS	event.c	27;"	d	file:
+ERR_NOMGB	arm/queue.c	33;"	d	file:
+ERR_NOMGB	arm/vqueue.c	35;"	d	file:
+ERR_NOMGB	queue.c	33;"	d	file:
+ERR_NOMGB	vqueue.c	35;"	d	file:
+ERR_NOMSG	arm/queue.c	36;"	d	file:
+ERR_NOMSG	arm/vqueue.c	38;"	d	file:
+ERR_NOMSG	queue.c	36;"	d	file:
+ERR_NOMSG	vqueue.c	38;"	d	file:
+ERR_NOQCB	arm/queue.c	32;"	d	file:
+ERR_NOQCB	arm/vqueue.c	34;"	d	file:
+ERR_NOQCB	queue.c	32;"	d	file:
+ERR_NOQCB	vqueue.c	34;"	d	file:
+ERR_NOSCB	arm/sema4.c	29;"	d	file:
+ERR_NOSCB	sema4.c	29;"	d	file:
+ERR_NOSEM	arm/sema4.c	30;"	d	file:
+ERR_NOSEM	sema4.c	30;"	d	file:
+ERR_NOTSUSP	arm/task.c	32;"	d	file:
+ERR_NOTSUSP	task.c	32;"	d	file:
+ERR_NO_ERROR	arm/p2pthread.h	60;"	d
+ERR_NO_ERROR	p2pthread.h	60;"	d
+ERR_OBJDEL	arm/event.c	23;"	d	file:
+ERR_OBJDEL	arm/memblk.c	22;"	d	file:
+ERR_OBJDEL	arm/queue.c	28;"	d	file:
+ERR_OBJDEL	arm/sema4.c	25;"	d	file:
+ERR_OBJDEL	arm/task.c	25;"	d	file:
+ERR_OBJDEL	arm/vqueue.c	28;"	d	file:
+ERR_OBJDEL	event.c	23;"	d	file:
+ERR_OBJDEL	memblk.c	22;"	d	file:
+ERR_OBJDEL	queue.c	28;"	d	file:
+ERR_OBJDEL	sema4.c	25;"	d	file:
+ERR_OBJDEL	task.c	25;"	d	file:
+ERR_OBJDEL	vqueue.c	28;"	d	file:
+ERR_OBJNF	arm/event.c	25;"	d	file:
+ERR_OBJNF	arm/memblk.c	24;"	d	file:
+ERR_OBJNF	arm/queue.c	30;"	d	file:
+ERR_OBJNF	arm/sema4.c	27;"	d	file:
+ERR_OBJNF	arm/task.c	27;"	d	file:
+ERR_OBJNF	arm/vqueue.c	30;"	d	file:
+ERR_OBJNF	event.c	25;"	d	file:
+ERR_OBJNF	memblk.c	24;"	d	file:
+ERR_OBJNF	queue.c	30;"	d	file:
+ERR_OBJNF	sema4.c	27;"	d	file:
+ERR_OBJNF	task.c	27;"	d	file:
+ERR_OBJNF	vqueue.c	30;"	d	file:
+ERR_OBJTFULL	arm/event.c	24;"	d	file:
+ERR_OBJTFULL	arm/memblk.c	23;"	d	file:
+ERR_OBJTFULL	arm/queue.c	29;"	d	file:
+ERR_OBJTFULL	arm/sema4.c	26;"	d	file:
+ERR_OBJTFULL	arm/task.c	26;"	d	file:
+ERR_OBJTFULL	arm/vqueue.c	29;"	d	file:
+ERR_OBJTFULL	event.c	24;"	d	file:
+ERR_OBJTFULL	memblk.c	23;"	d	file:
+ERR_OBJTFULL	queue.c	29;"	d	file:
+ERR_OBJTFULL	sema4.c	26;"	d	file:
+ERR_OBJTFULL	task.c	26;"	d	file:
+ERR_OBJTFULL	vqueue.c	29;"	d	file:
+ERR_PRIOR	arm/task.c	29;"	d	file:
+ERR_PRIOR	task.c	29;"	d	file:
+ERR_QFULL	arm/queue.c	34;"	d	file:
+ERR_QFULL	arm/vqueue.c	36;"	d	file:
+ERR_QFULL	queue.c	34;"	d	file:
+ERR_QFULL	vqueue.c	36;"	d	file:
+ERR_QKILLD	arm/queue.c	35;"	d	file:
+ERR_QKILLD	arm/vqueue.c	37;"	d	file:
+ERR_QKILLD	queue.c	35;"	d	file:
+ERR_QKILLD	vqueue.c	37;"	d	file:
+ERR_REGNUM	arm/task.c	33;"	d	file:
+ERR_REGNUM	task.c	33;"	d	file:
+ERR_SKILLD	arm/sema4.c	31;"	d	file:
+ERR_SKILLD	sema4.c	31;"	d	file:
+ERR_SUSP	arm/task.c	31;"	d	file:
+ERR_SUSP	task.c	31;"	d	file:
+ERR_TATQDEL	arm/queue.c	37;"	d	file:
+ERR_TATQDEL	arm/vqueue.c	39;"	d	file:
+ERR_TATQDEL	queue.c	37;"	d	file:
+ERR_TATQDEL	vqueue.c	39;"	d	file:
+ERR_TATSDEL	arm/sema4.c	32;"	d	file:
+ERR_TATSDEL	sema4.c	32;"	d	file:
+ERR_TIMEOUT	arm/event.c	21;"	d	file:
+ERR_TIMEOUT	arm/memblk.c	20;"	d	file:
+ERR_TIMEOUT	arm/queue.c	26;"	d	file:
+ERR_TIMEOUT	arm/sema4.c	23;"	d	file:
+ERR_TIMEOUT	arm/task.c	23;"	d	file:
+ERR_TIMEOUT	arm/vqueue.c	26;"	d	file:
+ERR_TIMEOUT	event.c	21;"	d	file:
+ERR_TIMEOUT	memblk.c	20;"	d	file:
+ERR_TIMEOUT	queue.c	26;"	d	file:
+ERR_TIMEOUT	sema4.c	23;"	d	file:
+ERR_TIMEOUT	task.c	23;"	d	file:
+ERR_TIMEOUT	vqueue.c	26;"	d	file:
+EVENT1	arm/demo.c	12;"	d	file:
+EVENT1	demo.c	12;"	d	file:
+EVENT10	arm/validate.c	44;"	d	file:
+EVENT10	validate.c	44;"	d	file:
+EVENT2	arm/demo.c	13;"	d	file:
+EVENT2	arm/validate.c	36;"	d	file:
+EVENT2	demo.c	13;"	d	file:
+EVENT2	validate.c	36;"	d	file:
+EVENT3	arm/validate.c	37;"	d	file:
+EVENT3	validate.c	37;"	d	file:
+EVENT4	arm/validate.c	38;"	d	file:
+EVENT4	validate.c	38;"	d	file:
+EVENT5	arm/validate.c	39;"	d	file:
+EVENT5	validate.c	39;"	d	file:
+EVENT6	arm/validate.c	40;"	d	file:
+EVENT6	validate.c	40;"	d	file:
+EVENT7	arm/validate.c	41;"	d	file:
+EVENT7	validate.c	41;"	d	file:
+EVENT8	arm/validate.c	42;"	d	file:
+EVENT8	validate.c	42;"	d	file:
+EVENT9	arm/validate.c	43;"	d	file:
+EVENT9	validate.c	43;"	d	file:
+EV_ALL	arm/not_quite_p_os.h	12;"	d
+EV_ALL	arm/p2linux.h	9;"	d
+EV_ALL	not_quite_p_os.h	12;"	d
+EV_ALL	p2linux.h	9;"	d
+EV_ANY	arm/event.c	19;"	d	file:
+EV_ANY	arm/not_quite_p_os.h	13;"	d
+EV_ANY	arm/p2linux.h	10;"	d
+EV_ANY	event.c	19;"	d	file:
+EV_ANY	not_quite_p_os.h	13;"	d
+EV_ANY	p2linux.h	10;"	d
+EV_NOWAIT	arm/event.c	18;"	d	file:
+EV_NOWAIT	arm/not_quite_p_os.h	14;"	d
+EV_NOWAIT	arm/p2linux.h	11;"	d
+EV_NOWAIT	event.c	18;"	d	file:
+EV_NOWAIT	not_quite_p_os.h	14;"	d
+EV_NOWAIT	p2linux.h	11;"	d
+EV_WAIT	arm/not_quite_p_os.h	15;"	d
+EV_WAIT	arm/p2linux.h	12;"	d
+EV_WAIT	not_quite_p_os.h	15;"	d
+EV_WAIT	p2linux.h	12;"	d
+FALSE	arm/p2pthread.h	30;"	d
+FALSE	p2pthread.h	30;"	d
+KILLD	arm/queue.c	20;"	d	file:
+KILLD	arm/sema4.c	35;"	d	file:
+KILLD	arm/vqueue.c	20;"	d	file:
+KILLD	queue.c	20;"	d	file:
+KILLD	sema4.c	35;"	d	file:
+KILLD	vqueue.c	20;"	d	file:
+MAX_P2PT_PRIORITY	arm/p2pthread.h	56;"	d
+MAX_P2PT_PRIORITY	p2pthread.h	56;"	d
+MIN_P2PT_PRIORITY	arm/p2pthread.h	55;"	d
+MIN_P2PT_PRIORITY	p2pthread.h	55;"	d
+NUM_TASK_REGS	arm/p2pthread.h	58;"	d
+NUM_TASK_REGS	p2pthread.h	58;"	d
+OBJS	Makefile	/^OBJS =  \\$/;"	m
+P2PT_TICK	arm/p2pthread.h	48;"	d
+P2PT_TICK	p2pthread.h	48;"	d
+PROG	Makefile	/^PROG = validate$/;"	m
+PT_DEL	arm/memblk.c	18;"	d	file:
+PT_DEL	arm/not_quite_p_os.h	17;"	d
+PT_DEL	arm/p2linux.h	15;"	d
+PT_DEL	memblk.c	18;"	d	file:
+PT_DEL	not_quite_p_os.h	17;"	d
+PT_DEL	p2linux.h	15;"	d
+PT_LOCAL	arm/p2linux.h	14;"	d
+PT_LOCAL	p2linux.h	14;"	d
+PT_NODEL	arm/not_quite_p_os.h	18;"	d
+PT_NODEL	arm/p2linux.h	16;"	d
+PT_NODEL	not_quite_p_os.h	18;"	d
+PT_NODEL	p2linux.h	16;"	d
+Q_FIFO	arm/not_quite_p_os.h	20;"	d
+Q_FIFO	arm/p2linux.h	18;"	d
+Q_FIFO	not_quite_p_os.h	20;"	d
+Q_FIFO	p2linux.h	18;"	d
+Q_LIMIT	arm/not_quite_p_os.h	21;"	d
+Q_LIMIT	arm/p2linux.h	19;"	d
+Q_LIMIT	arm/queue.c	24;"	d	file:
+Q_LIMIT	arm/vqueue.c	24;"	d	file:
+Q_LIMIT	not_quite_p_os.h	21;"	d
+Q_LIMIT	p2linux.h	19;"	d
+Q_LIMIT	queue.c	24;"	d	file:
+Q_LIMIT	vqueue.c	24;"	d	file:
+Q_NOLIMIT	arm/not_quite_p_os.h	22;"	d
+Q_NOLIMIT	arm/p2linux.h	20;"	d
+Q_NOLIMIT	not_quite_p_os.h	22;"	d
+Q_NOLIMIT	p2linux.h	20;"	d
+Q_NOWAIT	arm/not_quite_p_os.h	23;"	d
+Q_NOWAIT	arm/p2linux.h	21;"	d
+Q_NOWAIT	arm/queue.c	22;"	d	file:
+Q_NOWAIT	arm/vqueue.c	22;"	d	file:
+Q_NOWAIT	not_quite_p_os.h	23;"	d
+Q_NOWAIT	p2linux.h	21;"	d
+Q_NOWAIT	queue.c	22;"	d	file:
+Q_NOWAIT	vqueue.c	22;"	d	file:
+Q_PRIOR	arm/not_quite_p_os.h	24;"	d
+Q_PRIOR	arm/p2linux.h	22;"	d
+Q_PRIOR	arm/queue.c	23;"	d	file:
+Q_PRIOR	arm/vqueue.c	23;"	d	file:
+Q_PRIOR	not_quite_p_os.h	24;"	d
+Q_PRIOR	p2linux.h	22;"	d
+Q_PRIOR	queue.c	23;"	d	file:
+Q_PRIOR	vqueue.c	23;"	d	file:
+Q_WAIT	arm/not_quite_p_os.h	25;"	d
+Q_WAIT	arm/p2linux.h	23;"	d
+Q_WAIT	not_quite_p_os.h	25;"	d
+Q_WAIT	p2linux.h	23;"	d
+SEND	arm/queue.c	18;"	d	file:
+SEND	arm/sema4.c	34;"	d	file:
+SEND	arm/vqueue.c	18;"	d	file:
+SEND	queue.c	18;"	d	file:
+SEND	sema4.c	34;"	d	file:
+SEND	vqueue.c	18;"	d	file:
+SM_FIFO	arm/not_quite_p_os.h	27;"	d
+SM_FIFO	arm/p2linux.h	25;"	d
+SM_FIFO	not_quite_p_os.h	27;"	d
+SM_FIFO	p2linux.h	25;"	d
+SM_NOWAIT	arm/not_quite_p_os.h	29;"	d
+SM_NOWAIT	arm/p2linux.h	27;"	d
+SM_NOWAIT	arm/sema4.c	21;"	d	file:
+SM_NOWAIT	not_quite_p_os.h	29;"	d
+SM_NOWAIT	p2linux.h	27;"	d
+SM_NOWAIT	sema4.c	21;"	d	file:
+SM_PRIOR	arm/not_quite_p_os.h	28;"	d
+SM_PRIOR	arm/p2linux.h	26;"	d
+SM_PRIOR	arm/sema4.c	20;"	d	file:
+SM_PRIOR	not_quite_p_os.h	28;"	d
+SM_PRIOR	p2linux.h	26;"	d
+SM_PRIOR	sema4.c	20;"	d	file:
+SM_WAIT	arm/not_quite_p_os.h	30;"	d
+SM_WAIT	arm/p2linux.h	28;"	d
+SM_WAIT	not_quite_p_os.h	30;"	d
+SM_WAIT	p2linux.h	28;"	d
+TRUE	arm/p2pthread.h	33;"	d
+TRUE	p2pthread.h	33;"	d
+T_LOCAL	arm/not_quite_p_os.h	32;"	d
+T_LOCAL	arm/p2linux.h	30;"	d
+T_LOCAL	not_quite_p_os.h	32;"	d
+T_LOCAL	p2linux.h	30;"	d
+T_NOPREEMPT	arm/not_quite_p_os.h	33;"	d
+T_NOPREEMPT	arm/p2linux.h	31;"	d
+T_NOPREEMPT	arm/task.c	20;"	d	file:
+T_NOPREEMPT	not_quite_p_os.h	33;"	d
+T_NOPREEMPT	p2linux.h	31;"	d
+T_NOPREEMPT	task.c	20;"	d	file:
+T_NOTSLICE	arm/not_quite_p_os.h	35;"	d
+T_NOTSLICE	arm/p2linux.h	33;"	d
+T_NOTSLICE	not_quite_p_os.h	35;"	d
+T_NOTSLICE	p2linux.h	33;"	d
+T_PREEMPT	arm/not_quite_p_os.h	34;"	d
+T_PREEMPT	arm/p2linux.h	32;"	d
+T_PREEMPT	not_quite_p_os.h	34;"	d
+T_PREEMPT	p2linux.h	32;"	d
+T_TSLICE	arm/not_quite_p_os.h	36;"	d
+T_TSLICE	arm/p2linux.h	34;"	d
+T_TSLICE	arm/task.c	21;"	d	file:
+T_TSLICE	not_quite_p_os.h	36;"	d
+T_TSLICE	p2linux.h	34;"	d
+T_TSLICE	task.c	21;"	d	file:
+UCHAR	arm/not_quite_p_os.h	7;"	d
+UCHAR	arm/p2linux.h	4;"	d
+UCHAR	arm/p2pthread.h	36;"	d
+UCHAR	not_quite_p_os.h	7;"	d
+UCHAR	p2linux.h	4;"	d
+UCHAR	p2pthread.h	36;"	d
+UINT	arm/not_quite_p_os.h	9;"	d
+UINT	arm/p2linux.h	6;"	d
+UINT	arm/p2pthread.h	42;"	d
+UINT	not_quite_p_os.h	9;"	d
+UINT	p2linux.h	6;"	d
+UINT	p2pthread.h	42;"	d
+ULONG	arm/not_quite_p_os.h	10;"	d
+ULONG	arm/p2linux.h	7;"	d
+ULONG	arm/p2pthread.h	45;"	d
+ULONG	not_quite_p_os.h	10;"	d
+ULONG	p2linux.h	7;"	d
+ULONG	p2pthread.h	45;"	d
+USHORT	arm/not_quite_p_os.h	8;"	d
+USHORT	arm/p2linux.h	5;"	d
+USHORT	arm/p2pthread.h	39;"	d
+USHORT	not_quite_p_os.h	8;"	d
+USHORT	p2linux.h	5;"	d
+USHORT	p2pthread.h	39;"	d
+WAIT_ATIME	arm/p2pthread.h	68;"	d
+WAIT_ATIME	p2pthread.h	68;"	d
+WAIT_DELAY	arm/p2pthread.h	67;"	d
+WAIT_DELAY	p2pthread.h	67;"	d
+WAIT_EVENT	arm/p2pthread.h	73;"	d
+WAIT_EVENT	p2pthread.h	73;"	d
+WAIT_MUTEX	arm/p2pthread.h	69;"	d
+WAIT_MUTEX	p2pthread.h	69;"	d
+WAIT_QUEUE	arm/p2pthread.h	70;"	d
+WAIT_QUEUE	p2pthread.h	70;"	d
+WAIT_READY	arm/p2pthread.h	64;"	d
+WAIT_READY	p2pthread.h	64;"	d
+WAIT_SEMAP	arm/p2pthread.h	72;"	d
+WAIT_SEMAP	p2pthread.h	72;"	d
+WAIT_TSTRT	arm/p2pthread.h	65;"	d
+WAIT_TSTRT	p2pthread.h	65;"	d
+WAIT_TSUSP	arm/p2pthread.h	66;"	d
+WAIT_TSUSP	p2pthread.h	66;"	d
+WAIT_VQUE	arm/p2pthread.h	71;"	d
+WAIT_VQUE	p2pthread.h	71;"	d
+_P2LINUX_H	arm/p2linux.h	2;"	d
+_P2LINUX_H	p2linux.h	2;"	d
+attr	arm/p2pthread.h	/^        attr;$/;"	m	struct:p2pt_pthread_ctl_blk
+attr	p2pthread.h	/^        attr;$/;"	m	struct:p2pt_pthread_ctl_blk
+baddr	arm/memblk.c	/^        baddr;           \/* Pointer to data block for current extent *\/$/;"	m	struct:prtn_extent	file:
+baddr	memblk.c	/^        baddr;           \/* Pointer to data block for current extent *\/$/;"	m	struct:prtn_extent	file:
+bcount	arm/memblk.c	/^        bcount;$/;"	m	struct:prtn_extent	file:
+bcount	memblk.c	/^        bcount;$/;"	m	struct:prtn_extent	file:
+bcst_tasks_awakened	arm/queue.c	/^        bcst_tasks_awakened;$/;"	m	struct:p2pt_queue	file:
+bcst_tasks_awakened	arm/vqueue.c	/^        bcst_tasks_awakened;$/;"	m	struct:p2pt_vqueue	file:
+bcst_tasks_awakened	queue.c	/^        bcst_tasks_awakened;$/;"	m	struct:p2pt_queue	file:
+bcst_tasks_awakened	vqueue.c	/^        bcst_tasks_awakened;$/;"	m	struct:p2pt_vqueue	file:
+blk	arm/validate.c	/^    ULONG     blk[4];$/;"	m	union:__anon4	file:
+blk	arm/validate.c	/^    ULONG blk;$/;"	m	union:__anon3	file:
+blk	validate.c	/^    ULONG     blk[4];$/;"	m	union:__anon2	file:
+blk	validate.c	/^    ULONG blk;$/;"	m	union:__anon1	file:
+blk_size	arm/memblk.c	/^        blk_size;$/;"	m	struct:p2pt_partition	file:
+blk_size	memblk.c	/^        blk_size;$/;"	m	struct:p2pt_partition	file:
+cleanup_scheduler_lock	arm/task.c	/^    cleanup_scheduler_lock( void *tcb )$/;"	f	file:
+cleanup_scheduler_lock	task.c	/^    cleanup_scheduler_lock( void *tcb )$/;"	f	file:
+data_extent	arm/memblk.c	/^        data_extent;$/;"	m	struct:p2pt_partition	file:
+data_extent	memblk.c	/^        data_extent;$/;"	m	struct:p2pt_partition	file:
+data_extent_for	arm/vqueue.c	/^    data_extent_for( p2pt_vqueue_t *queue )$/;"	f	file:
+data_extent_for	vqueue.c	/^    data_extent_for( p2pt_vqueue_t *queue )$/;"	f	file:
+delete_prtn	arm/memblk.c	/^   delete_prtn( p2pt_prtn_t *prtn )$/;"	f	file:
+delete_prtn	memblk.c	/^   delete_prtn( p2pt_prtn_t *prtn )$/;"	f	file:
+delete_queue	arm/queue.c	/^   delete_queue( p2pt_queue_t *queue )$/;"	f	file:
+delete_queue	queue.c	/^   delete_queue( p2pt_queue_t *queue )$/;"	f	file:
+delete_sema4	arm/sema4.c	/^   delete_sema4( p2pt_sema4_t *semaphore )$/;"	f	file:
+delete_sema4	sema4.c	/^   delete_sema4( p2pt_sema4_t *semaphore )$/;"	f	file:
+delete_vqueue	arm/vqueue.c	/^   delete_vqueue( p2pt_vqueue_t *queue )$/;"	f	file:
+delete_vqueue	vqueue.c	/^   delete_vqueue( p2pt_vqueue_t *queue )$/;"	f	file:
+display_tcb	arm/demo.c	/^void display_tcb( void )$/;"	f
+display_tcb	arm/validate.c	/^void display_tcb( ULONG tid )$/;"	f
+display_tcb	demo.c	/^void display_tcb( void )$/;"	f
+display_tcb	validate.c	/^void display_tcb( ULONG tid )$/;"	f
+entry_point	arm/p2pthread.h	/^    void (*entry_point)( ULONG, ULONG, ULONG, ULONG );$/;"	m	struct:p2pt_pthread_ctl_blk
+entry_point	p2pthread.h	/^    void (*entry_point)( ULONG, ULONG, ULONG, ULONG );$/;"	m	struct:p2pt_pthread_ctl_blk
+errno	arm/validate.c	51;"	d	file:
+errno	validate.c	51;"	d	file:
+ev_receive	arm/event.c	/^   ev_receive( ULONG mask, ULONG opt, ULONG max_wait, ULONG *captured )$/;"	f
+ev_receive	event.c	/^   ev_receive( ULONG mask, ULONG opt, ULONG max_wait, ULONG *captured )$/;"	f
+ev_send	arm/event.c	/^   ev_send( ULONG taskid, ULONG new_events )$/;"	f
+ev_send	event.c	/^   ev_send( ULONG taskid, ULONG new_events )$/;"	f
+event_change	arm/p2pthread.h	/^        event_change;$/;"	m	struct:p2pt_pthread_ctl_blk
+event_change	p2pthread.h	/^        event_change;$/;"	m	struct:p2pt_pthread_ctl_blk
+event_lock	arm/p2pthread.h	/^        event_lock;$/;"	m	struct:p2pt_pthread_ctl_blk
+event_lock	p2pthread.h	/^        event_lock;$/;"	m	struct:p2pt_pthread_ctl_blk
+event_mask	arm/p2pthread.h	/^        event_mask;$/;"	m	struct:p2pt_pthread_ctl_blk
+event_mask	p2pthread.h	/^        event_mask;$/;"	m	struct:p2pt_pthread_ctl_blk
+events_captured	arm/p2pthread.h	/^        events_captured;$/;"	m	struct:p2pt_pthread_ctl_blk
+events_captured	p2pthread.h	/^        events_captured;$/;"	m	struct:p2pt_pthread_ctl_blk
+events_match_mask	arm/event.c	/^    events_match_mask( p2pthread_cb_t *tcb, ULONG rule )$/;"	f	file:
+events_match_mask	event.c	/^    events_match_mask( p2pthread_cb_t *tcb, ULONG rule )$/;"	f	file:
+events_pending	arm/p2pthread.h	/^        events_pending;$/;"	m	struct:p2pt_pthread_ctl_blk
+events_pending	p2pthread.h	/^        events_pending;$/;"	m	struct:p2pt_pthread_ctl_blk
+fetch_msg_from	arm/queue.c	/^    fetch_msg_from( p2pt_queue_t *queue, q_msg_t msg )$/;"	f	file:
+fetch_msg_from	arm/vqueue.c	/^    fetch_msg_from( p2pt_vqueue_t *queue, char *msg, ULONG *msglen )$/;"	f	file:
+fetch_msg_from	queue.c	/^    fetch_msg_from( p2pt_queue_t *queue, q_msg_t msg )$/;"	f	file:
+fetch_msg_from	vqueue.c	/^    fetch_msg_from( p2pt_vqueue_t *queue, char *msg, ULONG *msglen )$/;"	f	file:
+first_extent	arm/queue.c	/^        first_extent;$/;"	m	struct:p2pt_queue	file:
+first_extent	queue.c	/^        first_extent;$/;"	m	struct:p2pt_queue	file:
+first_free	arm/memblk.c	/^        first_free;$/;"	m	struct:p2pt_partition	file:
+first_free	memblk.c	/^        first_free;$/;"	m	struct:p2pt_partition	file:
+first_msg_in_queue	arm/vqueue.c	/^        first_msg_in_queue;$/;"	m	struct:p2pt_vqueue	file:
+first_msg_in_queue	vqueue.c	/^        first_msg_in_queue;$/;"	m	struct:p2pt_vqueue	file:
+first_susp	arm/queue.c	/^        first_susp;$/;"	m	struct:p2pt_queue	file:
+first_susp	arm/sema4.c	/^        first_susp;$/;"	m	struct:p2pt_sema4	file:
+first_susp	arm/vqueue.c	/^        first_susp;$/;"	m	struct:p2pt_vqueue	file:
+first_susp	queue.c	/^        first_susp;$/;"	m	struct:p2pt_queue	file:
+first_susp	sema4.c	/^        first_susp;$/;"	m	struct:p2pt_sema4	file:
+first_susp	vqueue.c	/^        first_susp;$/;"	m	struct:p2pt_vqueue	file:
+flags	arm/memblk.c	/^        flags;$/;"	m	struct:p2pt_partition	file:
+flags	arm/p2pthread.h	/^        flags;$/;"	m	struct:p2pt_pthread_ctl_blk
+flags	arm/queue.c	/^        flags;$/;"	m	struct:p2pt_queue	file:
+flags	arm/sema4.c	/^        flags;$/;"	m	struct:p2pt_sema4	file:
+flags	arm/vqueue.c	/^        flags;$/;"	m	struct:p2pt_vqueue	file:
+flags	memblk.c	/^        flags;$/;"	m	struct:p2pt_partition	file:
+flags	p2pthread.h	/^        flags;$/;"	m	struct:p2pt_pthread_ctl_blk
+flags	queue.c	/^        flags;$/;"	m	struct:p2pt_queue	file:
+flags	sema4.c	/^        flags;$/;"	m	struct:p2pt_sema4	file:
+flags	vqueue.c	/^        flags;$/;"	m	struct:p2pt_vqueue	file:
+free_blk_count	arm/memblk.c	/^        free_blk_count;$/;"	m	struct:p2pt_partition	file:
+free_blk_count	memblk.c	/^        free_blk_count;$/;"	m	struct:p2pt_partition	file:
+last_free	arm/memblk.c	/^        last_free;$/;"	m	struct:p2pt_partition	file:
+last_free	memblk.c	/^        last_free;$/;"	m	struct:p2pt_partition	file:
+last_msg_in_queue	arm/queue.c	/^        last_msg_in_queue;$/;"	m	struct:p2pt_queue	file:
+last_msg_in_queue	arm/vqueue.c	/^        last_msg_in_queue;$/;"	m	struct:p2pt_vqueue	file:
+last_msg_in_queue	queue.c	/^        last_msg_in_queue;$/;"	m	struct:p2pt_queue	file:
+last_msg_in_queue	vqueue.c	/^        last_msg_in_queue;$/;"	m	struct:p2pt_vqueue	file:
+link_pcb	arm/memblk.c	/^   link_pcb( p2pt_prtn_t *new_prtn )$/;"	f	file:
+link_pcb	memblk.c	/^   link_pcb( p2pt_prtn_t *new_prtn )$/;"	f	file:
+link_qcb	arm/queue.c	/^   link_qcb( p2pt_queue_t *new_queue )$/;"	f	file:
+link_qcb	arm/vqueue.c	/^   link_qcb( p2pt_vqueue_t *new_vqueue )$/;"	f	file:
+link_qcb	queue.c	/^   link_qcb( p2pt_queue_t *new_queue )$/;"	f	file:
+link_qcb	vqueue.c	/^   link_qcb( p2pt_vqueue_t *new_vqueue )$/;"	f	file:
+link_smcb	arm/sema4.c	/^   link_smcb( p2pt_sema4_t *new_sema4 )$/;"	f	file:
+link_smcb	sema4.c	/^   link_smcb( p2pt_sema4_t *new_sema4 )$/;"	f	file:
+link_susp_tcb	arm/task.c	/^   link_susp_tcb( p2pthread_cb_t **list_head, p2pthread_cb_t *new_entry )$/;"	f
+link_susp_tcb	task.c	/^   link_susp_tcb( p2pthread_cb_t **list_head, p2pthread_cb_t *new_entry )$/;"	f
+main	arm/test.c	/^int main()$/;"	f
+main	test.c	/^int main()$/;"	f
+msg	arm/validate.c	/^    my_qmsg_t msg;$/;"	m	union:__anon4	file:
+msg	validate.c	/^    my_qmsg_t msg;$/;"	m	union:__anon2	file:
+msg_count	arm/queue.c	/^        msg_count;$/;"	m	struct:p2pt_queue	file:
+msg_count	arm/vqueue.c	/^        msg_count;$/;"	m	struct:p2pt_vqueue	file:
+msg_count	queue.c	/^        msg_count;$/;"	m	struct:p2pt_queue	file:
+msg_count	vqueue.c	/^        msg_count;$/;"	m	struct:p2pt_vqueue	file:
+msg_len	arm/vqueue.c	/^        msg_len;$/;"	m	struct:p2pt_vqueue	file:
+msg_len	vqueue.c	/^        msg_len;$/;"	m	struct:p2pt_vqueue	file:
+msg_no	arm/validate.c	/^    ULONG     msg_no; $/;"	m	struct:qmessage	file:
+msg_no	validate.c	/^    ULONG     msg_no; $/;"	m	struct:qmessage	file:
+msgblk_t	arm/validate.c	/^} msgblk_t;$/;"	t	typeref:union:__anon4	file:
+msgblk_t	validate.c	/^} msgblk_t;$/;"	t	typeref:union:__anon2	file:
+msgbuf	arm/vqueue.c	/^    char *msgbuf;$/;"	m	struct:q_varlen_msg	file:
+msgbuf	vqueue.c	/^    char *msgbuf;$/;"	m	struct:q_varlen_msg	file:
+msglen	arm/vqueue.c	/^    ULONG msglen;$/;"	m	struct:q_varlen_msg	file:
+msglen	vqueue.c	/^    ULONG msglen;$/;"	m	struct:q_varlen_msg	file:
+msgs	arm/queue.c	/^        msgs[1];         \/* Array of qsize + 1 q_msg_t messages *\/$/;"	m	struct:queue_extent_header	file:
+msgs	queue.c	/^        msgs[1];         \/* Array of qsize + 1 q_msg_t messages *\/$/;"	m	struct:queue_extent_header	file:
+msgs_per_extent	arm/queue.c	/^        msgs_per_extent;$/;"	m	struct:p2pt_queue	file:
+msgs_per_extent	queue.c	/^        msgs_per_extent;$/;"	m	struct:p2pt_queue	file:
+msgs_per_queue	arm/vqueue.c	/^        msgs_per_queue;$/;"	m	struct:p2pt_vqueue	file:
+msgs_per_queue	vqueue.c	/^        msgs_per_queue;$/;"	m	struct:p2pt_vqueue	file:
+my_qmsg_t	arm/validate.c	/^} my_qmsg_t;$/;"	t	typeref:struct:qmessage	file:
+my_qmsg_t	validate.c	/^} my_qmsg_t;$/;"	t	typeref:struct:qmessage	file:
+my_tcb	arm/task.c	/^   my_tcb( void )$/;"	f
+my_tcb	task.c	/^   my_tcb( void )$/;"	f
+name	arm/validate.c	/^    char  name[4];$/;"	m	union:__anon3	file:
+name	validate.c	/^    char  name[4];$/;"	m	union:__anon1	file:
+new_extent_for	arm/memblk.c	/^    new_extent_for( p2pt_prtn_t *prtn, char *datablk, unsigned long numblks )$/;"	f	file:
+new_extent_for	arm/queue.c	/^    new_extent_for( p2pt_queue_t *queue, ULONG qsize )$/;"	f	file:
+new_extent_for	memblk.c	/^    new_extent_for( p2pt_prtn_t *prtn, char *datablk, unsigned long numblks )$/;"	f	file:
+new_extent_for	queue.c	/^    new_extent_for( p2pt_queue_t *queue, ULONG qsize )$/;"	f	file:
+new_prtn_id	arm/memblk.c	/^   new_prtn_id( void )$/;"	f	file:
+new_prtn_id	memblk.c	/^   new_prtn_id( void )$/;"	f	file:
+new_qid	arm/queue.c	/^   new_qid( void )$/;"	f	file:
+new_qid	queue.c	/^   new_qid( void )$/;"	f	file:
+new_smid	arm/sema4.c	/^   new_smid( void )$/;"	f	file:
+new_smid	sema4.c	/^   new_smid( void )$/;"	f	file:
+new_tid	arm/task.c	/^   new_tid( void )$/;"	f	file:
+new_tid	task.c	/^   new_tid( void )$/;"	f	file:
+new_vqid	arm/vqueue.c	/^   new_vqid( void )$/;"	f	file:
+new_vqid	vqueue.c	/^   new_vqid( void )$/;"	f	file:
+nullterm	arm/validate.c	/^    ULONG     nullterm; $/;"	m	struct:qmessage	file:
+nullterm	validate.c	/^    ULONG     nullterm; $/;"	m	struct:qmessage	file:
+nxt_extent	arm/queue.c	/^        nxt_extent;      \/* Points to next extent block (if any, else NULL)*\/$/;"	m	struct:queue_extent_header	file:
+nxt_extent	queue.c	/^        nxt_extent;      \/* Points to next extent block (if any, else NULL)*\/$/;"	m	struct:queue_extent_header	file:
+nxt_prtn	arm/memblk.c	/^        nxt_prtn;$/;"	m	struct:p2pt_partition	typeref:struct:p2pt_partition::p2pt_partition	file:
+nxt_prtn	memblk.c	/^        nxt_prtn;$/;"	m	struct:p2pt_partition	typeref:struct:p2pt_partition::p2pt_partition	file:
+nxt_queue	arm/queue.c	/^        nxt_queue;$/;"	m	struct:p2pt_queue	typeref:struct:p2pt_queue::p2pt_queue	file:
+nxt_queue	arm/vqueue.c	/^        nxt_queue;$/;"	m	struct:p2pt_vqueue	typeref:struct:p2pt_vqueue::p2pt_vqueue	file:
+nxt_queue	queue.c	/^        nxt_queue;$/;"	m	struct:p2pt_queue	typeref:struct:p2pt_queue::p2pt_queue	file:
+nxt_queue	vqueue.c	/^        nxt_queue;$/;"	m	struct:p2pt_vqueue	typeref:struct:p2pt_vqueue::p2pt_vqueue	file:
+nxt_sema4	arm/sema4.c	/^        nxt_sema4;$/;"	m	struct:p2pt_sema4	typeref:struct:p2pt_sema4::p2pt_sema4	file:
+nxt_sema4	sema4.c	/^        nxt_sema4;$/;"	m	struct:p2pt_sema4	typeref:struct:p2pt_sema4::p2pt_sema4	file:
+nxt_susp	arm/p2pthread.h	/^        nxt_susp;$/;"	m	struct:p2pt_pthread_ctl_blk	typeref:struct:p2pt_pthread_ctl_blk::p2pt_pthread_ctl_blk
+nxt_susp	p2pthread.h	/^        nxt_susp;$/;"	m	struct:p2pt_pthread_ctl_blk	typeref:struct:p2pt_pthread_ctl_blk::p2pt_pthread_ctl_blk
+nxt_task	arm/p2pthread.h	/^        nxt_task;$/;"	m	struct:p2pt_pthread_ctl_blk	typeref:struct:p2pt_pthread_ctl_blk::p2pt_pthread_ctl_blk
+nxt_task	p2pthread.h	/^        nxt_task;$/;"	m	struct:p2pt_pthread_ctl_blk	typeref:struct:p2pt_pthread_ctl_blk::p2pt_pthread_ctl_blk
+objname_t	arm/validate.c	/^} objname_t;$/;"	t	typeref:union:__anon3	file:
+objname_t	validate.c	/^} objname_t;$/;"	t	typeref:union:__anon1	file:
+order	arm/queue.c	/^        order;$/;"	m	struct:p2pt_queue	file:
+order	arm/vqueue.c	/^        order;$/;"	m	struct:p2pt_vqueue	file:
+order	queue.c	/^        order;$/;"	m	struct:p2pt_queue	file:
+order	vqueue.c	/^        order;$/;"	m	struct:p2pt_vqueue	file:
+p2pt_partition	arm/memblk.c	/^typedef struct p2pt_partition$/;"	s	file:
+p2pt_partition	memblk.c	/^typedef struct p2pt_partition$/;"	s	file:
+p2pt_prtn_t	arm/memblk.c	/^} p2pt_prtn_t;$/;"	t	typeref:struct:p2pt_partition	file:
+p2pt_prtn_t	memblk.c	/^} p2pt_prtn_t;$/;"	t	typeref:struct:p2pt_partition	file:
+p2pt_pthread_ctl_blk	arm/p2pthread.h	/^typedef struct p2pt_pthread_ctl_blk$/;"	s
+p2pt_pthread_ctl_blk	p2pthread.h	/^typedef struct p2pt_pthread_ctl_blk$/;"	s
+p2pt_pthread_parms	arm/p2pthread.h	/^typedef struct p2pt_pthread_parms$/;"	s
+p2pt_pthread_parms	p2pthread.h	/^typedef struct p2pt_pthread_parms$/;"	s
+p2pt_queue	arm/queue.c	/^typedef struct p2pt_queue$/;"	s	file:
+p2pt_queue	queue.c	/^typedef struct p2pt_queue$/;"	s	file:
+p2pt_queue_t	arm/queue.c	/^} p2pt_queue_t;$/;"	t	typeref:struct:p2pt_queue	file:
+p2pt_queue_t	queue.c	/^} p2pt_queue_t;$/;"	t	typeref:struct:p2pt_queue	file:
+p2pt_sched_lock	arm/task.c	/^    p2pt_sched_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+p2pt_sched_lock	task.c	/^    p2pt_sched_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+p2pt_sema4	arm/sema4.c	/^typedef struct p2pt_sema4$/;"	s	file:
+p2pt_sema4	sema4.c	/^typedef struct p2pt_sema4$/;"	s	file:
+p2pt_sema4_t	arm/sema4.c	/^} p2pt_sema4_t;$/;"	t	typeref:struct:p2pt_sema4	file:
+p2pt_sema4_t	sema4.c	/^} p2pt_sema4_t;$/;"	t	typeref:struct:p2pt_sema4	file:
+p2pt_vqueue	arm/vqueue.c	/^typedef struct p2pt_vqueue$/;"	s	file:
+p2pt_vqueue	vqueue.c	/^typedef struct p2pt_vqueue$/;"	s	file:
+p2pt_vqueue_t	arm/vqueue.c	/^} p2pt_vqueue_t;$/;"	t	typeref:struct:p2pt_vqueue	file:
+p2pt_vqueue_t	vqueue.c	/^} p2pt_vqueue_t;$/;"	t	typeref:struct:p2pt_vqueue	file:
+p2pthread_cb_t	arm/p2pthread.h	/^} p2pthread_cb_t;$/;"	t	typeref:struct:p2pt_pthread_ctl_blk
+p2pthread_cb_t	p2pthread.h	/^} p2pthread_cb_t;$/;"	t	typeref:struct:p2pt_pthread_ctl_blk
+p2pthread_pb_t	arm/p2pthread.h	/^} p2pthread_pb_t;$/;"	t	typeref:struct:p2pt_pthread_parms
+p2pthread_pb_t	p2pthread.h	/^} p2pthread_pb_t;$/;"	t	typeref:struct:p2pt_pthread_parms
+parms	arm/p2pthread.h	/^         parms[4];$/;"	m	struct:p2pt_pthread_parms
+parms	p2pthread.h	/^         parms[4];$/;"	m	struct:p2pt_pthread_parms
+part1_numblks	arm/validate.c	/^static ULONG part1_numblks;$/;"	v	file:
+part1_numblks	validate.c	/^static ULONG part1_numblks;$/;"	v	file:
+part2_id	arm/demo.c	/^ULONG part2_id;$/;"	v
+part2_id	demo.c	/^ULONG part2_id;$/;"	v
+part2_numblks	arm/demo.c	/^ULONG part2_numblks;$/;"	v
+part2_numblks	arm/validate.c	/^static ULONG part2_numblks;$/;"	v	file:
+part2_numblks	demo.c	/^ULONG part2_numblks;$/;"	v
+part2_numblks	validate.c	/^static ULONG part2_numblks;$/;"	v	file:
+part3_id	arm/demo.c	/^ULONG part3_id;$/;"	v
+part3_id	demo.c	/^ULONG part3_id;$/;"	v
+part3_numblks	arm/demo.c	/^ULONG part3_numblks;$/;"	v
+part3_numblks	arm/validate.c	/^static ULONG part3_numblks;$/;"	v	file:
+part3_numblks	demo.c	/^ULONG part3_numblks;$/;"	v
+part3_numblks	validate.c	/^static ULONG part3_numblks;$/;"	v	file:
+partition_1	arm/validate.c	/^static char partition_1[512];$/;"	v	file:
+partition_1	validate.c	/^static char partition_1[512];$/;"	v	file:
+partition_2	arm/validate.c	/^static char partition_2[1024];$/;"	v	file:
+partition_2	validate.c	/^static char partition_2[1024];$/;"	v	file:
+partition_3	arm/validate.c	/^static char partition_3[2048];$/;"	v	file:
+partition_3	validate.c	/^static char partition_3[2048];$/;"	v	file:
+partition_task2_part	arm/demo.c	/^char partition_task2_part[1024];$/;"	v
+partition_task2_part	demo.c	/^char partition_task2_part[1024];$/;"	v
+partition_task3_part	arm/demo.c	/^char partition_task3_part[2048];$/;"	v
+partition_task3_part	demo.c	/^char partition_task3_part[2048];$/;"	v
+partn1_id	arm/validate.c	/^static ULONG partn1_id;$/;"	v	file:
+partn1_id	validate.c	/^static ULONG partn1_id;$/;"	v	file:
+partn2_id	arm/validate.c	/^static ULONG partn2_id;$/;"	v	file:
+partn2_id	validate.c	/^static ULONG partn2_id;$/;"	v	file:
+partn3_id	arm/validate.c	/^static ULONG partn3_id;$/;"	v	file:
+partn3_id	validate.c	/^static ULONG partn3_id;$/;"	v	file:
+pcb_for	arm/memblk.c	/^   pcb_for( int prtn_id )$/;"	f	file:
+pcb_for	memblk.c	/^   pcb_for( int prtn_id )$/;"	f	file:
+prtn_extent	arm/memblk.c	/^typedef struct prtn_extent$/;"	s	file:
+prtn_extent	memblk.c	/^typedef struct prtn_extent$/;"	s	file:
+prtn_extent_t	arm/memblk.c	/^} prtn_extent_t;$/;"	t	typeref:struct:prtn_extent	file:
+prtn_extent_t	memblk.c	/^} prtn_extent_t;$/;"	t	typeref:struct:prtn_extent	file:
+prtn_id	arm/memblk.c	/^        prtn_id;$/;"	m	struct:p2pt_partition	file:
+prtn_id	memblk.c	/^        prtn_id;$/;"	m	struct:p2pt_partition	file:
+prtn_list	arm/memblk.c	/^    prtn_list;$/;"	v	file:
+prtn_list	memblk.c	/^    prtn_list;$/;"	v	file:
+prtn_list_lock	arm/memblk.c	/^    prtn_list_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+prtn_list_lock	memblk.c	/^    prtn_list_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+prtn_lock	arm/memblk.c	/^        prtn_lock;$/;"	m	struct:p2pt_partition	file:
+prtn_lock	memblk.c	/^        prtn_lock;$/;"	m	struct:p2pt_partition	file:
+prv_priority	arm/p2pthread.h	/^        prv_priority;$/;"	m	struct:p2pt_pthread_ctl_blk	typeref:struct:p2pt_pthread_ctl_blk::sched_param
+prv_priority	p2pthread.h	/^        prv_priority;$/;"	m	struct:p2pt_pthread_ctl_blk	typeref:struct:p2pt_pthread_ctl_blk::sched_param
+pt_create	arm/memblk.c	/^    pt_create( char name[4], void *paddr, void *laddr, ULONG length,$/;"	f
+pt_create	memblk.c	/^    pt_create( char name[4], void *paddr, void *laddr, ULONG length,$/;"	f
+pt_delete	arm/memblk.c	/^    pt_delete( ULONG ptid )$/;"	f
+pt_delete	memblk.c	/^    pt_delete( ULONG ptid )$/;"	f
+pt_getbuf	arm/memblk.c	/^    pt_getbuf( ULONG ptid, void **bufaddr )$/;"	f
+pt_getbuf	memblk.c	/^    pt_getbuf( ULONG ptid, void **bufaddr )$/;"	f
+pt_ident	arm/memblk.c	/^    pt_ident( char name[4], ULONG node, ULONG *ptid )$/;"	f
+pt_ident	memblk.c	/^    pt_ident( char name[4], ULONG node, ULONG *ptid )$/;"	f
+pt_retbuf	arm/memblk.c	/^    pt_retbuf( ULONG ptid, void *bufaddr )$/;"	f
+pt_retbuf	memblk.c	/^    pt_retbuf( ULONG ptid, void *bufaddr )$/;"	f
+pthread_sema4	arm/sema4.c	/^        pthread_sema4;$/;"	m	struct:p2pt_sema4	file:
+pthread_sema4	sema4.c	/^        pthread_sema4;$/;"	m	struct:p2pt_sema4	file:
+pthrid	arm/p2pthread.h	/^        pthrid;$/;"	m	struct:p2pt_pthread_ctl_blk
+pthrid	p2pthread.h	/^        pthrid;$/;"	m	struct:p2pt_pthread_ctl_blk
+ptname	arm/memblk.c	/^        ptname[4];$/;"	m	struct:p2pt_partition	file:
+ptname	memblk.c	/^        ptname[4];$/;"	m	struct:p2pt_partition	file:
+q_broadcast	arm/queue.c	/^   q_broadcast( ULONG qid, q_msg_t msg, ULONG *count )$/;"	f
+q_broadcast	queue.c	/^   q_broadcast( ULONG qid, q_msg_t msg, ULONG *count )$/;"	f
+q_create	arm/queue.c	/^    q_create( char name[4], ULONG qsize, ULONG opt, ULONG *qid )$/;"	f
+q_create	queue.c	/^    q_create( char name[4], ULONG qsize, ULONG opt, ULONG *qid )$/;"	f
+q_delete	arm/queue.c	/^   q_delete( ULONG qid )$/;"	f
+q_delete	queue.c	/^   q_delete( ULONG qid )$/;"	f
+q_extent_t	arm/queue.c	/^} q_extent_t;$/;"	t	typeref:struct:queue_extent_header	file:
+q_extent_t	queue.c	/^} q_extent_t;$/;"	t	typeref:struct:queue_extent_header	file:
+q_ident	arm/queue.c	/^    q_ident( char name[4], ULONG node, ULONG *qid )$/;"	f
+q_ident	queue.c	/^    q_ident( char name[4], ULONG node, ULONG *qid )$/;"	f
+q_msg_t	arm/queue.c	/^typedef ULONG q_msg_t[4];$/;"	t	file:
+q_msg_t	queue.c	/^typedef ULONG q_msg_t[4];$/;"	t	file:
+q_receive	arm/queue.c	/^   q_receive( ULONG qid, ULONG opt, ULONG max_wait, q_msg_t msg )$/;"	f
+q_receive	queue.c	/^   q_receive( ULONG qid, ULONG opt, ULONG max_wait, q_msg_t msg )$/;"	f
+q_send	arm/queue.c	/^   q_send( ULONG qid, q_msg_t msg )$/;"	f
+q_send	queue.c	/^   q_send( ULONG qid, q_msg_t msg )$/;"	f
+q_urgent	arm/queue.c	/^   q_urgent( ULONG qid, q_msg_t msg )$/;"	f
+q_urgent	queue.c	/^   q_urgent( ULONG qid, q_msg_t msg )$/;"	f
+q_varlen_msg	arm/vqueue.c	/^typedef struct q_varlen_msg$/;"	s	file:
+q_varlen_msg	vqueue.c	/^typedef struct q_varlen_msg$/;"	s	file:
+q_vbroadcast	arm/vqueue.c	/^   q_vbroadcast( ULONG qid, void *msgbuf, ULONG msglen, ULONG *tasks )$/;"	f
+q_vbroadcast	vqueue.c	/^   q_vbroadcast( ULONG qid, void *msgbuf, ULONG msglen, ULONG *tasks )$/;"	f
+q_vcreate	arm/vqueue.c	/^    q_vcreate( char name[4], ULONG opt, ULONG qsize, ULONG msglen, ULONG *qid )$/;"	f
+q_vcreate	vqueue.c	/^    q_vcreate( char name[4], ULONG opt, ULONG qsize, ULONG msglen, ULONG *qid )$/;"	f
+q_vdelete	arm/vqueue.c	/^   q_vdelete( ULONG qid )$/;"	f
+q_vdelete	vqueue.c	/^   q_vdelete( ULONG qid )$/;"	f
+q_vident	arm/vqueue.c	/^    q_vident( char name[4], ULONG node, ULONG *qid )$/;"	f
+q_vident	vqueue.c	/^    q_vident( char name[4], ULONG node, ULONG *qid )$/;"	f
+q_vmsg_t	arm/vqueue.c	/^} q_vmsg_t;$/;"	t	typeref:struct:q_varlen_msg	file:
+q_vmsg_t	vqueue.c	/^} q_vmsg_t;$/;"	t	typeref:struct:q_varlen_msg	file:
+q_vreceive	arm/vqueue.c	/^   q_vreceive( ULONG qid, ULONG opt, ULONG max_wait, void *msgbuf,$/;"	f
+q_vreceive	vqueue.c	/^   q_vreceive( ULONG qid, ULONG opt, ULONG max_wait, void *msgbuf,$/;"	f
+q_vsend	arm/vqueue.c	/^   q_vsend( ULONG qid, void *msgbuf, ULONG msglen )$/;"	f
+q_vsend	vqueue.c	/^   q_vsend( ULONG qid, void *msgbuf, ULONG msglen )$/;"	f
+q_vurgent	arm/vqueue.c	/^   q_vurgent( ULONG qid, void *msgbuf, ULONG msglen )$/;"	f
+q_vurgent	vqueue.c	/^   q_vurgent( ULONG qid, void *msgbuf, ULONG msglen )$/;"	f
+qbcst_cmplt	arm/vqueue.c	/^        qbcst_cmplt;$/;"	m	struct:p2pt_vqueue	file:
+qbcst_cmplt	vqueue.c	/^        qbcst_cmplt;$/;"	m	struct:p2pt_vqueue	file:
+qbcst_lock	arm/queue.c	/^        qbcst_lock;$/;"	m	struct:p2pt_queue	file:
+qbcst_lock	arm/vqueue.c	/^        qbcst_lock;$/;"	m	struct:p2pt_vqueue	file:
+qbcst_lock	queue.c	/^        qbcst_lock;$/;"	m	struct:p2pt_queue	file:
+qbcst_lock	vqueue.c	/^        qbcst_lock;$/;"	m	struct:p2pt_vqueue	file:
+qcb_for	arm/queue.c	/^   qcb_for( ULONG qid )$/;"	f	file:
+qcb_for	arm/vqueue.c	/^   qcb_for( ULONG qid )$/;"	f	file:
+qcb_for	queue.c	/^   qcb_for( ULONG qid )$/;"	f	file:
+qcb_for	vqueue.c	/^   qcb_for( ULONG qid )$/;"	f	file:
+qid	arm/queue.c	/^        qid;$/;"	m	struct:p2pt_queue	file:
+qid	arm/vqueue.c	/^        qid;$/;"	m	struct:p2pt_vqueue	file:
+qid	queue.c	/^        qid;$/;"	m	struct:p2pt_queue	file:
+qid	vqueue.c	/^        qid;$/;"	m	struct:p2pt_vqueue	file:
+qmessage	arm/validate.c	/^typedef struct qmessage$/;"	s	file:
+qmessage	validate.c	/^typedef struct qmessage$/;"	s	file:
+qname	arm/queue.c	/^        qname[4];$/;"	m	struct:p2pt_queue	file:
+qname	arm/validate.c	/^    objname_t qname;$/;"	m	struct:qmessage	file:
+qname	arm/vqueue.c	/^        qname[4];$/;"	m	struct:p2pt_vqueue	file:
+qname	queue.c	/^        qname[4];$/;"	m	struct:p2pt_queue	file:
+qname	validate.c	/^    objname_t qname;$/;"	m	struct:qmessage	file:
+qname	vqueue.c	/^        qname[4];$/;"	m	struct:p2pt_vqueue	file:
+queue1_id	arm/validate.c	/^static ULONG queue1_id;$/;"	v	file:
+queue1_id	validate.c	/^static ULONG queue1_id;$/;"	v	file:
+queue2_id	arm/demo.c	/^ULONG queue2_id;$/;"	v
+queue2_id	arm/validate.c	/^static ULONG queue2_id;$/;"	v	file:
+queue2_id	demo.c	/^ULONG queue2_id;$/;"	v
+queue2_id	validate.c	/^static ULONG queue2_id;$/;"	v	file:
+queue3_id	arm/demo.c	/^ULONG queue3_id;$/;"	v
+queue3_id	arm/validate.c	/^static ULONG queue3_id;$/;"	v	file:
+queue3_id	demo.c	/^ULONG queue3_id;$/;"	v
+queue3_id	validate.c	/^static ULONG queue3_id;$/;"	v	file:
+queue_bcplt	arm/queue.c	/^        queue_bcplt;$/;"	m	struct:p2pt_queue	file:
+queue_bcplt	queue.c	/^        queue_bcplt;$/;"	m	struct:p2pt_queue	file:
+queue_extent_header	arm/queue.c	/^typedef struct queue_extent_header$/;"	s	file:
+queue_extent_header	queue.c	/^typedef struct queue_extent_header$/;"	s	file:
+queue_head	arm/queue.c	/^        queue_head;$/;"	m	struct:p2pt_queue	file:
+queue_head	arm/vqueue.c	/^        queue_head;$/;"	m	struct:p2pt_vqueue	file:
+queue_head	queue.c	/^        queue_head;$/;"	m	struct:p2pt_queue	file:
+queue_head	vqueue.c	/^        queue_head;$/;"	m	struct:p2pt_vqueue	file:
+queue_list	arm/queue.c	/^    queue_list;$/;"	v	file:
+queue_list	queue.c	/^    queue_list;$/;"	v	file:
+queue_list_lock	arm/queue.c	/^    queue_list_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+queue_list_lock	queue.c	/^    queue_list_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+queue_lock	arm/queue.c	/^        queue_lock;$/;"	m	struct:p2pt_queue	file:
+queue_lock	arm/vqueue.c	/^        queue_lock;$/;"	m	struct:p2pt_vqueue	file:
+queue_lock	queue.c	/^        queue_lock;$/;"	m	struct:p2pt_queue	file:
+queue_lock	vqueue.c	/^        queue_lock;$/;"	m	struct:p2pt_vqueue	file:
+queue_send	arm/queue.c	/^        queue_send;$/;"	m	struct:p2pt_queue	file:
+queue_send	arm/vqueue.c	/^        queue_send;$/;"	m	struct:p2pt_vqueue	file:
+queue_send	queue.c	/^        queue_send;$/;"	m	struct:p2pt_queue	file:
+queue_send	vqueue.c	/^        queue_send;$/;"	m	struct:p2pt_vqueue	file:
+queue_tail	arm/queue.c	/^        queue_tail;$/;"	m	struct:p2pt_queue	file:
+queue_tail	arm/vqueue.c	/^        queue_tail;$/;"	m	struct:p2pt_vqueue	file:
+queue_tail	queue.c	/^        queue_tail;$/;"	m	struct:p2pt_queue	file:
+queue_tail	vqueue.c	/^        queue_tail;$/;"	m	struct:p2pt_vqueue	file:
+registers	arm/p2pthread.h	/^        registers[NUM_TASK_REGS];$/;"	m	struct:p2pt_pthread_ctl_blk
+registers	p2pthread.h	/^        registers[NUM_TASK_REGS];$/;"	m	struct:p2pt_pthread_ctl_blk
+sched_lock	arm/task.c	/^   sched_lock( void )$/;"	f
+sched_lock	task.c	/^   sched_lock( void )$/;"	f
+sched_lock_change	arm/task.c	/^    sched_lock_change = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+sched_lock_change	task.c	/^    sched_lock_change = PTHREAD_COND_INITIALIZER;$/;"	v	file:
+sched_lock_level	arm/task.c	/^    sched_lock_level = 0;$/;"	v	file:
+sched_lock_level	task.c	/^    sched_lock_level = 0;$/;"	v	file:
+sched_unlock	arm/task.c	/^   sched_unlock( void )$/;"	f
+sched_unlock	task.c	/^   sched_unlock( void )$/;"	f
+scheduler_locked	arm/task.c	/^    scheduler_locked = (pthread_t)NULL;$/;"	v	file:
+scheduler_locked	task.c	/^    scheduler_locked = (pthread_t)NULL;$/;"	v	file:
+sema41_id	arm/demo.c	/^ULONG sema41_id;$/;"	v
+sema41_id	arm/validate.c	/^static ULONG sema41_id;$/;"	v	file:
+sema41_id	demo.c	/^ULONG sema41_id;$/;"	v
+sema41_id	validate.c	/^static ULONG sema41_id;$/;"	v	file:
+sema42_id	arm/validate.c	/^static ULONG sema42_id;$/;"	v	file:
+sema42_id	validate.c	/^static ULONG sema42_id;$/;"	v	file:
+sema43_id	arm/validate.c	/^static ULONG sema43_id;$/;"	v	file:
+sema43_id	validate.c	/^static ULONG sema43_id;$/;"	v	file:
+sema4_list	arm/sema4.c	/^    sema4_list;$/;"	v	file:
+sema4_list	sema4.c	/^    sema4_list;$/;"	v	file:
+sema4_list_lock	arm/sema4.c	/^    sema4_list_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+sema4_list_lock	sema4.c	/^    sema4_list_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+sema4_lock	arm/sema4.c	/^        sema4_lock;$/;"	m	struct:p2pt_sema4	file:
+sema4_lock	sema4.c	/^        sema4_lock;$/;"	m	struct:p2pt_sema4	file:
+sema4_send	arm/sema4.c	/^        sema4_send;$/;"	m	struct:p2pt_sema4	file:
+sema4_send	sema4.c	/^        sema4_send;$/;"	m	struct:p2pt_sema4	file:
+send_msg_to	arm/queue.c	/^    send_msg_to( p2pt_queue_t *queue, q_msg_t msg )$/;"	f	file:
+send_msg_to	arm/vqueue.c	/^    send_msg_to( p2pt_vqueue_t *queue, char *msg, ULONG msglen )$/;"	f	file:
+send_msg_to	queue.c	/^    send_msg_to( p2pt_queue_t *queue, q_msg_t msg )$/;"	f	file:
+send_msg_to	vqueue.c	/^    send_msg_to( p2pt_vqueue_t *queue, char *msg, ULONG msglen )$/;"	f	file:
+send_type	arm/queue.c	/^        send_type;$/;"	m	struct:p2pt_queue	file:
+send_type	arm/sema4.c	/^        send_type;$/;"	m	struct:p2pt_sema4	file:
+send_type	arm/vqueue.c	/^        send_type;$/;"	m	struct:p2pt_vqueue	file:
+send_type	queue.c	/^        send_type;$/;"	m	struct:p2pt_queue	file:
+send_type	sema4.c	/^        send_type;$/;"	m	struct:p2pt_sema4	file:
+send_type	vqueue.c	/^        send_type;$/;"	m	struct:p2pt_vqueue	file:
+signal_for_my_task	arm/task.c	/^   signal_for_my_task( p2pthread_cb_t **list_head, int pend_order )$/;"	f
+signal_for_my_task	task.c	/^   signal_for_my_task( p2pthread_cb_t **list_head, int pend_order )$/;"	f
+sm_create	arm/sema4.c	/^    sm_create( char name[4], ULONG count, ULONG opt, ULONG *smid )$/;"	f
+sm_create	sema4.c	/^    sm_create( char name[4], ULONG count, ULONG opt, ULONG *smid )$/;"	f
+sm_delete	arm/sema4.c	/^   sm_delete( ULONG smid )$/;"	f
+sm_delete	sema4.c	/^   sm_delete( ULONG smid )$/;"	f
+sm_ident	arm/sema4.c	/^    sm_ident( char name[4], ULONG node, ULONG *smid )$/;"	f
+sm_ident	sema4.c	/^    sm_ident( char name[4], ULONG node, ULONG *smid )$/;"	f
+sm_p	arm/sema4.c	/^   sm_p( ULONG smid, ULONG opt, ULONG max_wait )$/;"	f
+sm_p	sema4.c	/^   sm_p( ULONG smid, ULONG opt, ULONG max_wait )$/;"	f
+sm_v	arm/sema4.c	/^   sm_v( ULONG smid )$/;"	f
+sm_v	sema4.c	/^   sm_v( ULONG smid )$/;"	f
+smcb_for	arm/sema4.c	/^   smcb_for( ULONG smid )$/;"	f	file:
+smcb_for	sema4.c	/^   smcb_for( ULONG smid )$/;"	f	file:
+smdel_cplt	arm/sema4.c	/^        smdel_cplt;$/;"	m	struct:p2pt_sema4	file:
+smdel_cplt	sema4.c	/^        smdel_cplt;$/;"	m	struct:p2pt_sema4	file:
+smdel_lock	arm/sema4.c	/^        smdel_lock;$/;"	m	struct:p2pt_sema4	file:
+smdel_lock	sema4.c	/^        smdel_lock;$/;"	m	struct:p2pt_sema4	file:
+smid	arm/sema4.c	/^        smid;$/;"	m	struct:p2pt_sema4	file:
+smid	sema4.c	/^        smid;$/;"	m	struct:p2pt_sema4	file:
+sname	arm/sema4.c	/^        sname[4];$/;"	m	struct:p2pt_sema4	file:
+sname	sema4.c	/^        sname[4];$/;"	m	struct:p2pt_sema4	file:
+suspend_list	arm/p2pthread.h	/^        suspend_list;$/;"	m	struct:p2pt_pthread_ctl_blk	typeref:struct:p2pt_pthread_ctl_blk::p2pt_pthread_ctl_blk
+suspend_list	p2pthread.h	/^        suspend_list;$/;"	m	struct:p2pt_pthread_ctl_blk	typeref:struct:p2pt_pthread_ctl_blk::p2pt_pthread_ctl_blk
+suspend_reason	arm/p2pthread.h	/^        suspend_reason;$/;"	m	struct:p2pt_pthread_ctl_blk
+suspend_reason	p2pthread.h	/^        suspend_reason;$/;"	m	struct:p2pt_pthread_ctl_blk
+t_create	arm/task.c	/^    t_create( char name[4], ULONG pri, ULONG sstack, ULONG ustack, ULONG mode,$/;"	f
+t_create	task.c	/^    t_create( char name[4], ULONG pri, ULONG sstack, ULONG ustack, ULONG mode,$/;"	f
+t_cycle	arm/validate.c	/^    ULONG     t_cycle;$/;"	m	struct:qmessage	file:
+t_cycle	validate.c	/^    ULONG     t_cycle;$/;"	m	struct:qmessage	file:
+t_delete	arm/task.c	/^   t_delete( ULONG tid )$/;"	f
+t_delete	task.c	/^   t_delete( ULONG tid )$/;"	f
+t_getreg	arm/task.c	/^   t_getreg( ULONG tid, ULONG regnum, ULONG *reg_value )$/;"	f
+t_getreg	task.c	/^   t_getreg( ULONG tid, ULONG regnum, ULONG *reg_value )$/;"	f
+t_ident	arm/task.c	/^    t_ident( char name[4], ULONG node, ULONG *tid )$/;"	f
+t_ident	task.c	/^    t_ident( char name[4], ULONG node, ULONG *tid )$/;"	f
+t_mode	arm/task.c	/^    t_mode( ULONG mask, ULONG new_flags, ULONG *old_flags )$/;"	f
+t_mode	task.c	/^    t_mode( ULONG mask, ULONG new_flags, ULONG *old_flags )$/;"	f
+t_resume	arm/task.c	/^    t_resume( ULONG tid )$/;"	f
+t_resume	task.c	/^    t_resume( ULONG tid )$/;"	f
+t_setpri	arm/task.c	/^    t_setpri( ULONG tid, ULONG pri, ULONG *oldpri )$/;"	f
+t_setpri	task.c	/^    t_setpri( ULONG tid, ULONG pri, ULONG *oldpri )$/;"	f
+t_setreg	arm/task.c	/^   t_setreg( ULONG tid, ULONG regnum, ULONG reg_value )$/;"	f
+t_setreg	task.c	/^   t_setreg( ULONG tid, ULONG regnum, ULONG reg_value )$/;"	f
+t_start	arm/task.c	/^    t_start( ULONG tid, ULONG mode,$/;"	f
+t_start	task.c	/^    t_start( ULONG tid, ULONG mode,$/;"	f
+t_suspend	arm/task.c	/^    t_suspend( ULONG tid )$/;"	f
+t_suspend	task.c	/^    t_suspend( ULONG tid )$/;"	f
+task1	arm/demo.c	/^void task1( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task1	arm/validate.c	/^void task1( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task1	demo.c	/^void task1( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task1	validate.c	/^void task1( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task10	arm/validate.c	/^void task10( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task10	validate.c	/^void task10( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task10_id	arm/validate.c	/^static ULONG task10_id;$/;"	v	file:
+task10_id	validate.c	/^static ULONG task10_id;$/;"	v	file:
+task1_id	arm/demo.c	/^ULONG task1_id;$/;"	v
+task1_id	arm/validate.c	/^static ULONG task1_id;$/;"	v	file:
+task1_id	demo.c	/^ULONG task1_id;$/;"	v
+task1_id	validate.c	/^static ULONG task1_id;$/;"	v	file:
+task2	arm/demo.c	/^void task2( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task2	arm/validate.c	/^void task2( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task2	demo.c	/^void task2( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task2	validate.c	/^void task2( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task2_id	arm/demo.c	/^ULONG task2_id;$/;"	v
+task2_id	arm/validate.c	/^static ULONG task2_id;$/;"	v	file:
+task2_id	demo.c	/^ULONG task2_id;$/;"	v
+task2_id	validate.c	/^static ULONG task2_id;$/;"	v	file:
+task3	arm/demo.c	/^void task3( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task3	arm/validate.c	/^void task3( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task3	demo.c	/^void task3( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task3	validate.c	/^void task3( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task3_id	arm/demo.c	/^ULONG task3_id;$/;"	v
+task3_id	arm/validate.c	/^static ULONG task3_id;$/;"	v	file:
+task3_id	demo.c	/^ULONG task3_id;$/;"	v
+task3_id	validate.c	/^static ULONG task3_id;$/;"	v	file:
+task4	arm/validate.c	/^void task4( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task4	validate.c	/^void task4( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task4_id	arm/validate.c	/^static ULONG task4_id;$/;"	v	file:
+task4_id	validate.c	/^static ULONG task4_id;$/;"	v	file:
+task5	arm/validate.c	/^void task5( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task5	validate.c	/^void task5( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task5_id	arm/validate.c	/^static ULONG task5_id;$/;"	v	file:
+task5_id	validate.c	/^static ULONG task5_id;$/;"	v	file:
+task6	arm/validate.c	/^void task6( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task6	validate.c	/^void task6( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task6_id	arm/validate.c	/^static ULONG task6_id;$/;"	v	file:
+task6_id	validate.c	/^static ULONG task6_id;$/;"	v	file:
+task7	arm/validate.c	/^void task7( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task7	validate.c	/^void task7( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task7_id	arm/validate.c	/^static ULONG task7_id;$/;"	v	file:
+task7_id	validate.c	/^static ULONG task7_id;$/;"	v	file:
+task8	arm/validate.c	/^void task8( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task8	validate.c	/^void task8( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task8_id	arm/validate.c	/^static ULONG task8_id;$/;"	v	file:
+task8_id	validate.c	/^static ULONG task8_id;$/;"	v	file:
+task9	arm/validate.c	/^void task9( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task9	validate.c	/^void task9( ULONG dummy0, ULONG dummy1, ULONG dummy2, ULONG dummy3 )$/;"	f
+task9_id	arm/validate.c	/^static ULONG task9_id;$/;"	v	file:
+task9_id	validate.c	/^static ULONG task9_id;$/;"	v	file:
+task_list	arm/task.c	/^    task_list = (p2pthread_cb_t *)NULL;$/;"	v	file:
+task_list	task.c	/^    task_list = (p2pthread_cb_t *)NULL;$/;"	v	file:
+task_list_lock	arm/task.c	/^    task_list_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+task_list_lock	task.c	/^    task_list_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+task_ptr	arm/p2pthread.h	/^    void (*task_ptr)( ULONG, ULONG, ULONG, ULONG );$/;"	m	struct:p2pt_pthread_parms
+task_ptr	p2pthread.h	/^    void (*task_ptr)( ULONG, ULONG, ULONG, ULONG );$/;"	m	struct:p2pt_pthread_parms
+task_wrapper	arm/task.c	/^    task_wrapper( void *arg )$/;"	f	file:
+task_wrapper	task.c	/^    task_wrapper( void *arg )$/;"	f	file:
+taskid	arm/p2pthread.h	/^        taskid;$/;"	m	struct:p2pt_pthread_ctl_blk
+taskid	p2pthread.h	/^        taskid;$/;"	m	struct:p2pt_pthread_ctl_blk
+taskname	arm/p2pthread.h	/^        taskname[4];$/;"	m	struct:p2pt_pthread_ctl_blk
+taskname	p2pthread.h	/^        taskname[4];$/;"	m	struct:p2pt_pthread_ctl_blk
+tcb	arm/p2pthread.h	/^        tcb;$/;"	m	struct:p2pt_pthread_parms
+tcb	p2pthread.h	/^        tcb;$/;"	m	struct:p2pt_pthread_parms
+tcb_delete	arm/task.c	/^   tcb_delete( p2pthread_cb_t *tcb )$/;"	f	file:
+tcb_delete	task.c	/^   tcb_delete( p2pthread_cb_t *tcb )$/;"	f	file:
+tcb_for	arm/task.c	/^   tcb_for( ULONG taskid )$/;"	f
+tcb_for	task.c	/^   tcb_for( ULONG taskid )$/;"	f
+test_cycle	arm/validate.c	/^static ULONG test_cycle;$/;"	v	file:
+test_cycle	validate.c	/^static ULONG test_cycle;$/;"	v	file:
+tm_wkafter	arm/timer.c	/^   tm_wkafter( ULONG interval )$/;"	f
+tm_wkafter	timer.c	/^   tm_wkafter( ULONG interval )$/;"	f
+total_extents	arm/queue.c	/^        total_extents;$/;"	m	struct:p2pt_queue	file:
+total_extents	queue.c	/^        total_extents;$/;"	m	struct:p2pt_queue	file:
+translate_priority	arm/task.c	/^   translate_priority( ULONG p2pt_priority, int sched_policy, ULONG *errp )$/;"	f	file:
+translate_priority	task.c	/^   translate_priority( ULONG p2pt_priority, int sched_policy, ULONG *errp )$/;"	f	file:
+ts_free	arm/task.c	/^void ts_free( void *blkaddr )$/;"	f
+ts_free	task.c	/^void ts_free( void *blkaddr )$/;"	f
+ts_malloc	arm/task.c	/^void *ts_malloc( size_t blksize )$/;"	f
+ts_malloc	task.c	/^void *ts_malloc( size_t blksize )$/;"	f
+unlink_pcb	arm/memblk.c	/^   unlink_pcb( int prtn_id )$/;"	f	file:
+unlink_pcb	memblk.c	/^   unlink_pcb( int prtn_id )$/;"	f	file:
+unlink_qcb	arm/queue.c	/^   unlink_qcb( ULONG qid )$/;"	f	file:
+unlink_qcb	arm/vqueue.c	/^   unlink_qcb( ULONG qid )$/;"	f	file:
+unlink_qcb	queue.c	/^   unlink_qcb( ULONG qid )$/;"	f	file:
+unlink_qcb	vqueue.c	/^   unlink_qcb( ULONG qid )$/;"	f	file:
+unlink_smcb	arm/sema4.c	/^   unlink_smcb( ULONG smid )$/;"	f	file:
+unlink_smcb	sema4.c	/^   unlink_smcb( ULONG smid )$/;"	f	file:
+unlink_susp_tcb	arm/task.c	/^   unlink_susp_tcb( p2pthread_cb_t **list_head, p2pthread_cb_t *entry )$/;"	f
+unlink_susp_tcb	task.c	/^   unlink_susp_tcb( p2pthread_cb_t **list_head, p2pthread_cb_t *entry )$/;"	f
+urgent_msg_to	arm/queue.c	/^    urgent_msg_to( p2pt_queue_t *queue, q_msg_t msg )$/;"	f	file:
+urgent_msg_to	arm/vqueue.c	/^    urgent_msg_to( p2pt_vqueue_t *queue, char *msg, ULONG msglen )$/;"	f	file:
+urgent_msg_to	queue.c	/^    urgent_msg_to( p2pt_queue_t *queue, q_msg_t msg )$/;"	f	file:
+urgent_msg_to	vqueue.c	/^    urgent_msg_to( p2pt_vqueue_t *queue, char *msg, ULONG msglen )$/;"	f	file:
+used_blk_count	arm/memblk.c	/^        used_blk_count;$/;"	m	struct:p2pt_partition	file:
+used_blk_count	memblk.c	/^        used_blk_count;$/;"	m	struct:p2pt_partition	file:
+user_sysroot	arm/demo.c	/^    user_sysroot( void )$/;"	f
+user_sysroot	arm/validate.c	/^    user_sysroot( void )$/;"	f
+user_sysroot	demo.c	/^    user_sysroot( void )$/;"	f
+user_sysroot	validate.c	/^    user_sysroot( void )$/;"	f
+validate_events	arm/validate.c	/^void validate_events( void )$/;"	f
+validate_events	validate.c	/^void validate_events( void )$/;"	f
+validate_partitions	arm/validate.c	/^void validate_partitions( void )$/;"	f
+validate_partitions	validate.c	/^void validate_partitions( void )$/;"	f
+validate_queues	arm/validate.c	/^void validate_queues( void )$/;"	f
+validate_queues	validate.c	/^void validate_queues( void )$/;"	f
+validate_semaphores	arm/validate.c	/^void validate_semaphores( void )$/;"	f
+validate_semaphores	validate.c	/^void validate_semaphores( void )$/;"	f
+validate_tasks	arm/validate.c	/^void validate_tasks( void )$/;"	f
+validate_tasks	validate.c	/^void validate_tasks( void )$/;"	f
+validate_vqueues	arm/validate.c	/^void validate_vqueues( void )$/;"	f
+validate_vqueues	validate.c	/^void validate_vqueues( void )$/;"	f
+vmsg_len	arm/vqueue.c	/^        vmsg_len;$/;"	m	struct:p2pt_vqueue	file:
+vmsg_len	vqueue.c	/^        vmsg_len;$/;"	m	struct:p2pt_vqueue	file:
+vqueue1_id	arm/validate.c	/^static ULONG vqueue1_id;$/;"	v	file:
+vqueue1_id	validate.c	/^static ULONG vqueue1_id;$/;"	v	file:
+vqueue2_id	arm/validate.c	/^static ULONG vqueue2_id;$/;"	v	file:
+vqueue2_id	validate.c	/^static ULONG vqueue2_id;$/;"	v	file:
+vqueue3_id	arm/validate.c	/^static ULONG vqueue3_id;$/;"	v	file:
+vqueue3_id	validate.c	/^static ULONG vqueue3_id;$/;"	v	file:
+vqueue_list	arm/vqueue.c	/^    vqueue_list;$/;"	v	file:
+vqueue_list	vqueue.c	/^    vqueue_list;$/;"	v	file:
+vqueue_list_lock	arm/vqueue.c	/^    vqueue_list_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+vqueue_list_lock	vqueue.c	/^    vqueue_list_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+waiting_on_queue	arm/queue.c	/^    waiting_on_queue( p2pt_queue_t *queue, struct timespec *timeout,$/;"	f	file:
+waiting_on_queue	queue.c	/^    waiting_on_queue( p2pt_queue_t *queue, struct timespec *timeout,$/;"	f	file:
+waiting_on_sema4	arm/sema4.c	/^    waiting_on_sema4( p2pt_sema4_t *semaphore, struct timespec *timeout,$/;"	f	file:
+waiting_on_sema4	sema4.c	/^    waiting_on_sema4( p2pt_sema4_t *semaphore, struct timespec *timeout,$/;"	f	file:
+waiting_on_vqueue	arm/vqueue.c	/^    waiting_on_vqueue( p2pt_vqueue_t *queue, struct timespec *timeout,$/;"	f	file:
+waiting_on_vqueue	vqueue.c	/^    waiting_on_vqueue( p2pt_vqueue_t *queue, struct timespec *timeout,$/;"	f	file:
